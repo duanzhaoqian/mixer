@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	. "github.com/siddontang/mixer/mysql"
+	. "mixer/mysql"
 	"testing"
 )
 

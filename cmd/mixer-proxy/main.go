@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/mixer/config"
-	"github.com/siddontang/mixer/proxy"
+	"mixer/config"
+	"mixer/proxy"
 	"os"
 	"os/signal"
 	"runtime"
@@ -12,7 +12,7 @@ import (
 	"syscall"
 )
 
-var configFile *string = flag.String("config", "/etc/mixer.conf", "mixer proxy config file")
+var configFile *string = flag.String("config", "etc/mixer.conf.yaml", "mixer proxy config file")
 var logLevel *string = flag.String("log-level", "", "log level [debug|info|warn|error], default error")
 
 func main() {

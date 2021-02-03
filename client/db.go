@@ -3,7 +3,7 @@ package client
 import (
 	"container/list"
 	"fmt"
-	. "github.com/siddontang/mixer/mysql"
+	. "mixer/mysql"
 	"sync"
 	"sync/atomic"
 )

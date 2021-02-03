@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	"github.com/siddontang/mixer/client"
-	. "github.com/siddontang/mixer/mysql"
+	"mixer/client"
+	. "mixer/mysql"
 )
 
 func (c *Conn) isInTransaction() bool {

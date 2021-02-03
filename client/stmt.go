@@ -3,8 +3,8 @@ package client
 import (
 	"encoding/binary"
 	"fmt"
-	. "github.com/siddontang/mixer/mysql"
 	"math"
+	. "mixer/mysql"
 )
 
 type Stmt struct {

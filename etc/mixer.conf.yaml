@@ -5,7 +5,7 @@ addr : 127.0.0.1:4000
 
 # server user and password
 user : root
-password : 
+password : 123
 
 # log level[debug|info|warn|error],default error
 log_level : error

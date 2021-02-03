@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/siddontang/mixer/sqltypes"
+	"mixer/sqltypes"
 )
 
 const EOFCHAR = 0x100

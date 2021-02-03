@@ -2,8 +2,8 @@ package proxy
 
 import (
 	"fmt"
-	"github.com/siddontang/mixer/hack"
-	. "github.com/siddontang/mixer/mysql"
+	"mixer/hack"
+	. "mixer/mysql"
 	"strconv"
 )
 

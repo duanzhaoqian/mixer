@@ -3,8 +3,8 @@ package proxy
 import (
 	"fmt"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/mixer/client"
-	"github.com/siddontang/mixer/config"
+	"mixer/client"
+	"mixer/config"
 	"sync"
 	"time"
 )

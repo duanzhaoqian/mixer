@@ -9,7 +9,7 @@ package sqlparser
 import (
 	"fmt"
 
-	"github.com/siddontang/mixer/sqltypes"
+	"mixer/sqltypes"
 )
 
 // GetDBName parses the specified DML and returns the

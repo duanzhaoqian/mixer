@@ -3,8 +3,8 @@ package mysql
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/siddontang/mixer/hack"
 	"math"
+	"mixer/hack"
 	"strconv"
 )
 

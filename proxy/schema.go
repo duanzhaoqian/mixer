@@ -2,7 +2,7 @@ package proxy
 
 import (
 	"fmt"
-	"github.com/siddontang/mixer/router"
+	"mixer/router"
 )
 
 type Schema struct {

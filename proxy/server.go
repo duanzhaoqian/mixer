@@ -2,7 +2,7 @@ package proxy
 
 import (
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/mixer/config"
+	"mixer/config"
 
 	"net"
 	"runtime"
